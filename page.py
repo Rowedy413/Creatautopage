@@ -120,8 +120,12 @@ def clear():
 
 page_total=[]
 
+def main():
+    clear()
 
-main()
+if __name__ == "__main__":
+    main()
+
 
 
 
