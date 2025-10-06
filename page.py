@@ -48,7 +48,7 @@ def create(coki,user_agent):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.207 Safari/537.36,
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.207 Safari/537.36',
     'viewport-width': '983',
 }
             r = requests.Session()
@@ -125,6 +125,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
