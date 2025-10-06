@@ -17,9 +17,9 @@ try:
     from time import sleep as slp
     from time import time as tim
 except:
-    os.system('pip insatll mahdix')
-    os.system('pip insatll requests')
-    os.system('pip insatll bs4')
+    os.system('pip install mahdix')
+    os.system('pip install requests')
+    os.system('pip install bs4')
 
 
 #----------------------------------------------------------------------------------        
@@ -122,4 +122,5 @@ page_total=[]
 
 
 main()
+
 
