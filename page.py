@@ -4,7 +4,7 @@ __FACEBOOK__ =' USU-KINGS'
 __DEVOLPER__ = '___ROWEDY KIINH___'
 __FACEBOOK__ =  'ROWEDY'
 ___V___= 1
-__WHATSAPP___=+91XXXXX
+__WHATSAPP___=+918290090930
 # YOU Must RUN pip install mahdix Beafore Run THIS 
 #------------------------------------------------------#
 import os
@@ -122,3 +122,4 @@ page_total=[]
 
 
 main()
+
