@@ -319,10 +319,8 @@ def run_mode_quick(user_agent):
 def main():
     print_rainbow_banner()
     cprint(f"{owner_badge()} {Fore.GREEN}Welcome! Stylish inputs will show OWNER MMG badge.", Fore.WHITE)
-    cprint(f"{owner_badge()} {Fore.YELLOW}Press Enter to use default User-Agent or paste your own now:", Fore.WHITE, nl=False)
-    ua_in = input(" ")
-    user_agent = ua_in.strip() if ua_in.strip() else DEFAULT_UA
-    cprint(f"{owner_badge()} {Fore.CYAN}Using User-Agent: {user_agent[:120]}", Fore.WHITE)
+user_agent = DEFAULT_UA
+cprint(f"{owner_badge()} {Fore.CYAN}Using Default User-Agent: {user_agent[:120]}", Fore.WHITE)
 
     cprint(f"\n{owner_badge()} {Fore.CYAN}Choose mode:\n  1) Paste cookies (multi-line, end with 'END')\n  2) Load cookies from file\n  3) Quick multi-line paste (press Enter on blank line to finish)\n", Fore.WHITE)
     choice = input(f"{owner_badge()} Select 1, 2 or 3: ").strip()
