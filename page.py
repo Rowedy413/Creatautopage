@@ -95,9 +95,9 @@ last_names = [
     "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"
 ]
 #logo=mahdi_logo
-def main():
-        
-    clear()
+def clear():
+    os.system('clear')
+    
     #print(logo)
     #print(mahdilinx())
     user_agent=input('past you user agent: ')
@@ -122,5 +122,6 @@ page_total=[]
 
 
 main()
+
 
 
