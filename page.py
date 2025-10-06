@@ -1,10 +1,10 @@
 ##------------------------------------#
-__DEVOLPER__ = '___USU___'
+__DEVOLPER__ = '___ROWEDY___'
 __FACEBOOK__ =' USU-KINGS'
-__DEVOLPER__ = '___MR AAYUNASH___'
-__FACEBOOK__ =  'AAYU'
+__DEVOLPER__ = '___ROWEDY KIINH___'
+__FACEBOOK__ =  'ROWEDY'
 ___V___= 1
-__WHATSAPP___=+916280137565 
+__WHATSAPP___=+91XXXXX
 # YOU Must RUN pip install mahdix Beafore Run THIS 
 #------------------------------------------------------#
 import os
@@ -61,7 +61,7 @@ def create(coki,user_agent):
             spr = re.search('"__spin_r":(.*?),', str(req)).group(1)
             spt = re.search('"__spin_t":(.*?),', str(req)).group(1)
             name_p=str(f"{rc(names_fast)} {rc(last_names)}")
-            bio_p='PAGE CREATED BY RJ ROHIT'
+            bio_p='PAGE CREATED BY RJ ROWEDY'
             data = {'av': usr,'__user': usr,'__a': '1','__req': '1i','__hs': '19666.HYP:comet_pkg.2.1..2.1','dpr': '1','__ccg': 'MODERATE','__rev':rev,'__s': 'qvdp97:zb23lw:givv21','__comet_req': '15','fb_dtsg': dts,'jazoest': jzt,'lsd': lsd,'__aaid': '0','__spin_r': spr,'__spin_b': 'trunk','__spin_t': spt,'fb_api_caller_class': 'RelayModern','fb_api_req_friendly_name': 'AdditionalProfilePlusCreationMutation','variables': '{"input":{"bio":"%s","categories":["1350536325044173","200597389954350","123377808095874"],"creation_source":"comet","name":"%s","page_referrer":"launch_point","actor_id":"%s","client_mutation_id":"3"}}'%(bio_p,name_p,usr),'server_timestamps': 'true','doc_id': '5296879960418435',}
             response = requests.post('https://www.facebook.com/api/graphql/', cookies={'cookie': coki}, headers=headers_global, data=data)
             parsed_data = json.loads(response.text)
@@ -78,7 +78,7 @@ def create(coki,user_agent):
         
 
 names_fast = [
-"Zakiir Khan", "Rohit x Shivam", "Rohit x Prince", "Rohit x Saksham", "Rohit x Sona"
+"Rowedy kiing", "kiing", "baba tillu", "tera baap", "tusar ki mummy chodne wala"
 
 ]
 last_names = [
@@ -119,5 +119,6 @@ def main():
     slp(15)
 
 page_total=[]
+
 
 main()
