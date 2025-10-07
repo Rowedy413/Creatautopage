@@ -51,7 +51,7 @@ BANNER = r"""
 ██╔══██╗██║   ██║██║███╗██║██╔══╝  ██║  ██║  ╚██╔╝  
 ██║  ██║╚██████╔╝╚███╔███╔╝███████╗██████╔╝   ██║   
 ╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ╚══════╝╚═════╝    ╚═╝   
-""" ROWEDY KIING AUTO PAGE CREATED
+""" 
 
 def print_rainbow_banner():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -64,7 +64,7 @@ def print_rainbow_banner():
             else:
                 colored += random.choice(COLORS) + ch + Style.RESET_ALL
         typewriter(colored, delay=0.001)
-    typewriter(f"\n{Fore.YELLOW}{Style.BRIGHT}    Auto Page Creator - Manual Naming Mode\n", delay=0.002)
+    typewriter(f"\n{Fore.YELLOW}{Style.BRIGHT}    ROWEDY KING PAGE CREAT -MANUL NAME\n", delay=0.002)
     print()
 
 def print_box(message, color=Fore.CYAN):
